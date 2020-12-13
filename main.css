@@ -111,6 +111,11 @@ main {
 }
 /*size design*/
 .size-sm {
+  width: 50%;
+  height: 10px;
+}
+.size-full {
+  flex: 1 0 60%;
 }
 /*------------------Footer Settings----------------*/
 footer {
