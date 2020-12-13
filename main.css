@@ -93,6 +93,10 @@ main {
 .error-f:focus {
   border: 1px solid #d32f2f;
 }
+/*disabled design*/
+.disabled-in {
+  border-radius: 10px;
+}
 /*------------------Footer Settings----------------*/
 footer {
   flex: 1 0 50%;
