@@ -20,6 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <title>Devchallenges</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -89,16 +91,16 @@
         </div>
       </div>
 
-      <div class="line-content">
-        <div class="input-container">
+      <div class="line-content ">
+        <div class="input-container extra-text">
           <p class="desc">&lt;Input helperText="Some interesting text" /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="text-int">Label</label>
+          <input name="text-int" class="default-in text-int"></input>
         </div>
-        <div class="input-container">
+        <div class="input-container in-large extra-text">
           <p class="desc">&lt;Input helperText="Some interesting text" error /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="text-int-err" class="label-err">Label</label>
+          <input name="text-int-err" class="error-in text-int-err"></input>
         </div>
       </div>
 
@@ -106,38 +108,38 @@
         <div class="input-container">
           <p class="desc">&lt;Input startIcon /&gt;</p>
           <label for="">Label</label>
-          <input></input>
+          <input class="default-in" placeholder="placeholder"></input>
         </div>
         <div class="input-container">
           <p class="desc">&lt;Input endtIcon /&gt;</p>
           <label for="">Label</label>
-          <input></input>
+          <input class="default-in" placeholder="placeholder"></input>
         </div>
       </div>
 
       <div class="line-content">
         <div class="input-container">
           <p class="desc">&lt;Input value="text" /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="inner-text">Label</label>
+          <input value="Text" name="inner-text" class="default-in"></input>
         </div>
       </div>
 
       <div class="line-content">
         <div class="input-container">
           <p class="desc">&lt;Input size="sm" /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="size-sm">Label</label>
+          <input class="default-in size-sm" name="size-sm"></input>
         </div>
         <div class="input-container">
           <p class="desc">&lt;Input size="md" /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="size-md">Label</label>
+          <input class="default-in size-md" name="size-md"></input>
         </div>
         <div class="input-container">
           <p class="desc">&lt;Input fullWidth /&gt;</p>
-          <label for="">Label</label>
-          <input></input>
+          <label for="size-full">Label</label>
+          <input class="default-in size-full" name="size-full"></input>
         </div>
       </div>
 
@@ -145,7 +147,7 @@
         <div class="input-container">
           <p class="desc">&lt;Input multiline row="4" /&gt;</p>
           <label for="">Label</label>
-          <input></input>
+          <textarea rows="4" cols="50" class=" default-in"></textarea>
         </div>
 
       </div>
