@@ -1,0 +1,83 @@
+/*------------------General Settings----------------*/
+:root {
+  --prin-font: "Noto Sans JP", sans-serif;
+  --sec-font: "Poppins", sans-serif;
+  --tit-font: "Ubuntu Mono", monospace;
+  --back-color: #fafbfd;
+  --hl-color: #f7542e;
+  --text-color: #9e9e9e;
+}
+body {
+  font-family: var(--prin-font);
+  display: flex;
+  flex-wrap: wrap;
+}
+body a {
+  text-decoration: none;
+}
+.link,
+.h-f {
+  color: var(--text-color);
+}
+/*------------------Aside Settings----------------*/
+aside {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  background-color: var(--back-color);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+aside div:first-of-type {
+  flex: 0 0 15%;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: var(--sec-font);
+}
+.hl {
+  color: var(--hl-color);
+}
+aside div:last-of-type {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*------------------Main Settings----------------*/
+main {
+  flex: 1 0 50%;
+}
+.desc {
+  font-family: var(--tit-font);
+}
+.line-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.prin-title {
+  font-size: 1.2em;
+  font-family: var(--sec-font);
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 15%;
+  padding: 0.5em;
+}
+.input-container * {
+  padding: 0.5em;
+}
+
+/*------------------Footer Settings----------------*/
+footer {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
