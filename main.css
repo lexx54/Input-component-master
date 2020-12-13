@@ -72,6 +72,17 @@ main {
 .input-container * {
   padding: 0.5em;
 }
+.default-in {
+  outline: none;
+  border: 1px solid #828282;
+  border-radius: 10px;
+}
+.default-h:hover {
+  border: 1px solid #333333;
+}
+.default-f:focus {
+  border: 1px solid #2962ff;
+}
 
 /*------------------Footer Settings----------------*/
 footer {
