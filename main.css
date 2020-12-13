@@ -49,11 +49,14 @@ aside div:last-of-type {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   aside {
-    flex-direction: row;
-    flex: 1 0 50%;
+    flex-flow: row wrap;
+    flex: 1 0 80%;
     height: 15vh;
+  }
+  aside div:first-of-type {
+    flex: 0 0 80%;
   }
   aside div:last-of-type {
     flex-direction: row;
