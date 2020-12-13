@@ -72,6 +72,7 @@ main {
 .input-container * {
   padding: 0.5em;
 }
+/*Default design*/
 .default-in {
   outline: none;
   border: 1px solid #828282;
@@ -83,7 +84,15 @@ main {
 .default-f:focus {
   border: 1px solid #2962ff;
 }
-
+/*Error design*/
+.error-in {
+  outline: none;
+  border: 1px solid #d32f2f;
+  border-radius: 10px;
+}
+.error-f:focus {
+  border: 1px solid #d32f2f;
+}
 /*------------------Footer Settings----------------*/
 footer {
   flex: 1 0 50%;
